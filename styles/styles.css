@@ -1,4 +1,63 @@
-img.example {
-  height: 30%;
-  width: 30%;
+/* commence primary ignition */
+
+* {
+    box-sizing: border-box;
 }
+header, section, footer, aside, nav, article, figure, figcaption {
+  display: block;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body { 
+  font-family: Georgia, "Times New Roman", serif, Myriad Pro;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/* end primary ignition */
+
+h1 {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-weight: 400;
+  font-size: 3em;
+}
+h2 {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+}
+p {
+  text-align: center;
+  padding: 1em 0em;
+}
+img.example {
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
